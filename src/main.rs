@@ -1,7 +1,10 @@
+mod editor;
+
 use axum::{
     routing::get,
     Router,
 };
+
 
 #[tokio::main]
 async fn main() {
@@ -22,9 +25,11 @@ async fn root() -> &'static str {
     "root"
 }
 
+
 async fn get_foo() -> &'static str {
     "get_foo"
 }
+
 
 async fn post_foo() -> &'static str {
     "post_foo"
