@@ -1,6 +1,0 @@
-
-*.lock
-/target
-.idea
-.gitignore
-.vscode
